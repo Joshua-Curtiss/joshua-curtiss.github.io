@@ -1,7 +1,7 @@
 nav:
     
   - title: "About"
-    url: _includes/about.html
+    url: about.html
     
   - title: "Timeline"
     section: timeline
