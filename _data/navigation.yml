@@ -1,7 +1,7 @@
 nav:
     
   - title: "About"
-    section: about_me
+    section: about
     
   - title: "Timeline"
     section: timeline
