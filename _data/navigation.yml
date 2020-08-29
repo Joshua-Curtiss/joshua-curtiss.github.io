@@ -3,6 +3,9 @@ nav:
   - title: "About"
     url: about.html
     
+  - title: "Book"
+    url: book.html
+    
   - title: "Timeline"
     section: timeline
     
