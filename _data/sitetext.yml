@@ -4,7 +4,7 @@ header:
     button: "About Me new"
     buttonlink: "#services" # "#{section}" or "URL/page link"
 
-about:
+about_me:
     title: "About Me"
     text: "Test"
     section: about_me
