@@ -1,8 +1,13 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: 
+    text: Joshua Curtiss
     button: Tell Me More
     buttonlink: "#services" # "#{section}" or "URL/page link"
+
+about:
+    title: "About Me"
+    text: "statistician and researcher in clinical psychology"
+    section: about
 
 services:
     title: "Services"
@@ -55,11 +60,6 @@ timeline:
         alt: 
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
 
 clients:
     section: clients
