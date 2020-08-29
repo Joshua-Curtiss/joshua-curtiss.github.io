@@ -1,5 +1,5 @@
 header:
-    title: 
+    title: ""
     text: Joshua Curtiss
     button: Tell Me More
     buttonlink: "#services" # "#{section}" or "URL/page link"
