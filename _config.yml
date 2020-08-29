@@ -19,7 +19,7 @@ baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
 title      : Home
 email      : joshcur@gmail.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "Academic website for Joshua Curtiss"
 author     : Joshua Curtiss
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
