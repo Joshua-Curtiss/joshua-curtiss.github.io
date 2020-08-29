@@ -1,7 +1,7 @@
 header:
     title: ""
-    text: Joshua Curtiss
-    button: Tell Me More
+    text: "Joshua Curtiss"
+    button: "About Me"
     buttonlink: "#services" # "#{section}" or "URL/page link"
 
 about:
