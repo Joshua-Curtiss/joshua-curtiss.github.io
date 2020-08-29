@@ -2,7 +2,7 @@ header:
     title: ""
     text: "Joshua Curtiss"
     button: "About"
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    buttonlink: "#about_me" # "#{section}" or "URL/page link"
 
 about_me:
     title: "About Me"
