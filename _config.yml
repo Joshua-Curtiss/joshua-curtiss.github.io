@@ -16,9 +16,8 @@ remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
-baseurl: "https://joshua-curtiss.github.io"
 
-title      : Home
+title      : Home_new
 email      : joshcur@gmail.com #this is also the email contact forms will go to
 description: "Academic website for Joshua Curtiss"
 author     : Joshua Curtiss
