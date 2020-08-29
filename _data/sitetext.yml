@@ -7,7 +7,7 @@ header:
 about:
     title: "About Me"
     text: "I am currently a postdoctoral associate in the psychiatry department at Harvard Medical School / Massachusetts General Hospital. Most of my research interests pertain to nosological issues underlying psychiatric disorders, statistical modeling, and treatment mechanisms of empirically supported interventions for emotional disorders. These activities are complemented by my interests in philosophy of science. Prior to pursuing my doctoral degree, I was a statistician and researcher in the clinical psychology department at Yale University for several years. I received my undergraduate degrees from Rutgers University in Cognitive Science, Philosophy, and Psychology. "
-    section: about
+    section: timeline
 
 services:
     title: "Services"
