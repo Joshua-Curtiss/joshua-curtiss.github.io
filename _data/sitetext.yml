@@ -19,7 +19,7 @@ services:
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
       - title: "Philosophy of Science and Psychopathology"
         desc: "My scientific research is complemented by my abiding passion for metaphysics, epistemology, and philosophy of science. I primarily endorse and defend global skepticism. A current paper that will be under review explores the ontology of mental disorders, contenting that an anti-realist framework offers the best explanatory account."
-        icon: fas fa-markdown       
+        icon: fas fa-acorn       
       - title: "Emotion Regulation and Mindfulness"
         desc: "Another principal domain of inquiry is how deficits in emotion regulation and mindfulness relate to the maintenance of anxiety and depressive disorders. Recent papers have investigated the presence of differential mindfulness deficits across generalized anxiety disorder and major depressive disorder. Furthermore, I am interested in emotion regulation mechanisms underlying empirically supported treatments."
         icon: fab fa-laptop
@@ -128,7 +128,7 @@ footer:
     legal: "Privacy Policy"
     social:
       - url: joshcur@gmail.com
-        icon: "fab fa-envelope"
+        icon: "fas fa-envelope"
       - url: https://twitter.com/psychonetrics
         icon: "fab fa-twitter"  
 #       - url: https://facebook.com
