@@ -1,27 +1,30 @@
 header:
     title: ""
     text: "Joshua Curtiss"
-    button: "About"
+    button: "Biography"
     buttonlink: "#about" # "#{section}" or "URL/page link"
 
 about:
-    title: "About Me"
+    title: "Biography"
     text: "I am currently a postdoctoral associate in the psychiatry department at Harvard Medical School / Massachusetts General Hospital. Most of my research interests pertain to nosological issues underlying psychiatric disorders, statistical modeling, and treatment mechanisms of empirically supported interventions for emotional disorders. These activities are complemented by my interests in philosophy of science. Prior to pursuing my doctoral degree, I was a statistician and researcher in the clinical psychology department at Yale University for several years. I received my undergraduate degrees from Rutgers University in Cognitive Science, Philosophy, and Psychology."
     section: about
 
 services:
-    title: "Services"
-    text: "TESTING"
+    title: "Interests"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Nosology of Emotional Disorders"
+        desc: "Most of my research investigates alternative classification frameworks for emotional disorders. Recent interests include the application of complex causal network approaches and critical transition methods in the cross-sectional and longitudinal modeling of emotional disorders."
+        icon: fas fa-laptop #find more at https://fontawesome.com/icons
+      - title: "Philosophy of Science and Psychopathology"
+        desc: "My scientific research is complemented by my abiding passion for metaphysics, epistemology, and philosophy of science. I primarily endorse and defend global skepticism. A current paper that will be under review explores the ontology of mental disorders, contenting that an anti-realist framework offers the best explanatory account."
+        icon: fas fa-markdown       
+      - title: "Emotion Regulation and Mindfulness"
+        desc: "Another principal domain of inquiry is how deficits in emotion regulation and mindfulness relate to the maintenance of anxiety and depressive disorders. Recent papers have investigated the presence of differential mindfulness deficits across generalized anxiety disorder and major depressive disorder. Furthermore, I am interested in emotion regulation mechanisms underlying empirically supported treatments."
+        icon: fab fa-laptop
+      - title: "Statistics"
+        desc: "Recent interests include the potential application of finite mixture models and complex causal network approaches to characterize emotional psychopathology. Moreover, I have also become interested in longitudinal methods of addressing mediation (e.g., extensions of latent growth modeling techniques, dampened oscillator models, etc.)."
         icon: fab fa-markdown
 
 portfolio:
@@ -124,12 +127,14 @@ contact:
 footer:
     legal: "Privacy Policy"
     social:
+      - url: joshcur@gmail.com
+        icon: "fab fa-envelope"
       - url: https://twitter.com/psychonetrics
         icon: "fab fa-twitter"  
 #       - url: https://facebook.com
 #         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
+#       - url: https://linkedin.com
+#         icon: "fab fa-linkedin-in"
       - url: https://github.com/Joshua-Curtiss
         icon: "fab fa-github"
 #       - url: https://instagram.com
