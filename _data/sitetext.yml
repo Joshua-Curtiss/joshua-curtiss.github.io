@@ -25,7 +25,7 @@ services:
         icon: fas fa-seedling
       - title: "Statistics"
         desc: "Recent interests include the potential application of finite mixture models and complex causal network approaches to characterize emotional psychopathology. Moreover, I have also become interested in longitudinal methods of addressing mediation (e.g., extensions of latent growth modeling techniques, dampened oscillator models, etc.)."
-        icon: fab fa-laptop
+        icon: fas fa-laptop-code
 
 portfolio:
     title: "Portfolio"
