@@ -6,20 +6,20 @@ nav:
   - title: "Book"
     url: book.html
     
-  - title: "Timeline"
-    section: timeline
+#   - title: "Timeline"
+#     section: timeline
     
-  #- title: "Services"
-  #  section: services
+#   - title: "Services"
+#    section: services
 
-  #- title: "Portfolio"
-  #  section: portfolio
+#   - title: "Portfolio"
+#    section: portfolio
 
-  #- title: "Team"
-  #  section: team
+#   - title: "Team"
+#    section: team
 
   - title: "Contact"
     section: contact
 
-  #- title: "Theme Source"
-  #  url: https://github.com/raviriley/agency-jekyll-theme/
+#   - title: "Theme Source"
+#    url: https://github.com/raviriley/agency-jekyll-theme/
