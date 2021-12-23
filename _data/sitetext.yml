@@ -1,15 +1,24 @@
-header:
-    title: ""
-    text: "Joshua Curtiss"
-    button: "Biography"
-    buttonlink: "#about" # "#{section}" or "URL/page link"
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-about:
-    title: "Biography"
-    text: "I am currently a postdoctoral associate in the psychiatry department at Harvard Medical School / Massachusetts General Hospital. My research interests pertain to leveraging state-of-the-art statistical approaches to address questions relating to the nosology and treatment of emotional disorders. Specifically, my research embraces statistical procedures that foster idiographic and precision medicine approaches to clinical psychology, such as intensive time-series research designs and machine learning approaches. These activities are complemented by my interests in philosophy of science. I received my PhD in clinical psychology from Boston University under the mentorship of Dr. Stefan Hofmann, and I completed my pre-doctoral internship in the CBT track at MGH/Harvard Medical School. Prior to pursuing my doctoral degree, I was a statistician and researcher in the clinical psychology department at Yale University for several years. I received my undergraduate degrees from Rutgers University in cognitive science, philosophy, and psychology."
-    section: about
-
-services:
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: 
+    text: Joshua Curtiss
+    button: About
+    buttonlink: "#briefbio"
+  briefbio:
+    title: 
+    section: briefbio
+  services:
     title: "Interests"
     text: ""
     section: services
@@ -27,44 +36,44 @@ services:
         desc: "Recent interests include the potential application of finite mixture models and complex causal network approaches to characterize emotional psychopathology. Moreover, I have also become interested in longitudinal methods of addressing mediation (e.g., extensions of latent growth modeling techniques, dampened oscillator models, etc.)."
         icon: fas fa-laptop-code
 
-portfolio:
+  portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
-    
+    closebutton: "Close Project"
 
-timeline:
-    title: "Timeline" 
+  timeline:
+    title: "Timeline"
     text: "Lorem ipsum timeline"
     section: timeline
+    # left is the default
+    #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
+        alt:
       - title: "An Agency is Born"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
+        alt:
       - title: "Jekyll Theme is created"
         year: "2019"
         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-        #align: #default is left       
       - title: "Title"
         year: "2009-2011"
         desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
-        alt: 
+        alt:
+        # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-clients:
+  clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
@@ -81,8 +90,8 @@ clients:
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
-    
-team:
+
+  team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
@@ -90,7 +99,7 @@ team:
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -110,7 +119,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/3.jpg
+        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -119,15 +128,15 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
           
-contact:
+  contact:
    title: "Contact"
-   text: "Lorem ipsum or call 123456789"
+   text: "Contact"
    section: contact
     
-footer:
+  footer:
     legal: "Privacy Policy"
     social:
-      - url: joshcur@gmail.com
+      - url: mailto:jcurtiss@mgh.harvard.edu
         icon: "fas fa-envelope"
       - url: https://twitter.com/psychonetrics
         icon: "fab fa-twitter"  
@@ -140,5 +149,15 @@ footer:
 #       - url: https://instagram.com
 #         icon: "fab fa-instagram"
 
-
-# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+es-ES:
+  <<: *DEFAULT_EN
+es-CO:
+  <<: *DEFAULT_EN
