@@ -23,6 +23,8 @@ en: &DEFAULT_EN
 #      section: team
     - title: "CV"
       url: /assets/img/Curtiss_Joshua_CV_June_2021.pdf
+    - title: "Join Us!"
+      url: research_opportunities.html
     - title: "Contact"
       section: footer
 #    - title: "Theme Source"
