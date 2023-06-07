@@ -139,7 +139,7 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: mailto:jcurtiss@mgh.harvard.edu
+      - url: mailto:j.curtiss@northeastern.edu
         icon: "fas fa-envelope"
       - url: https://twitter.com/psychonetrics
         icon: "fab fa-twitter"  
