@@ -23,18 +23,21 @@ en: &DEFAULT_EN
     text: ""
     section: services
     list:
-      - title: "Nosology of Emotional Disorders"
-        desc: "Most of my research investigates alternative classification frameworks for emotional disorders. Recent interests include the application of complex causal network approaches and critical transition methods in the cross-sectional and longitudinal modeling of emotional disorders."
+      - title: "Dynamic Time-Series Approaches to Emotional Psychopathology using Network Science and Dynamical Systems Theory"
+        desc: "Most of my research investigates dynamic time-series frameworks for understanding emotional disorders. Substantive interests include the application of network science, dynamical systems, complex causal systems, and time-series machine learning to characterize how emotional disorders unfold over time. A better understanding of idiographic temporal processes underlying psychopathology affords greater insight into both disorder nosology and treatment processes."
         icon: fas fa-project-diagram #find more at https://fontawesome.com/icons
-      - title: "Philosophy of Science and Psychopathology"
-        desc: "My scientific research is complemented by my abiding passion for metaphysics, epistemology, and philosophy of science. I primarily endorse and defend global skepticism. A current paper that will be under review explores the ontology of mental disorders, contenting that an anti-realist framework offers the best explanatory account."
-        icon: fas fa-mortar-pestle
+      - title: "Precision Medicine and Predictive Modelling for Emotional Disorders"
+        desc: "A second and complementary area of research relates to furthering precision medicine approaches to emotional disorders. Much of my recent and ongoing research has examined the utility of machine learning models in predicting important clinical outcomes (e.g., response to treatment, changes in disorder state etc.). Time-seies extensions of machine learning provide opportunities for forecasting changes in symptom dynamics at the individual level. The ultimate objective is to leverage predictive modeling procedures to inform just-in-time adaptive interventions that are personalized at the individual level."
+        icon: fas fa-atom-simple 
       - title: "Emotion Regulation and Mindfulness"
-        desc: "Another principal domain of inquiry is how deficits in emotion regulation and mindfulness relate to the maintenance of anxiety and depressive disorders. Recent papers have investigated the presence of differential mindfulness deficits across generalized anxiety disorder and major depressive disorder. Furthermore, I am interested in emotion regulation mechanisms underlying empirically supported treatments."
+        desc: "Another principal domain of inquiry is how deficits in emotion regulation and mindfulness relate to the maintenance of emotional disorders. This work culminated in the Conditional Process Model (CPM), which endeavors to unify mindfulness and emotion regulation in a combined model that specifies how mindfulness and emotion regulation deficits interact in such a manner as to contribute to psychopathology. Furthermore, I am interested in emotion regulation mechanisms underlying empirically supported treatments."
         icon: fas fa-seedling
-      - title: "Statistics"
-        desc: "Recent interests include the potential application of finite mixture models and complex causal network approaches to characterize emotional psychopathology. Moreover, I have also become interested in longitudinal methods of addressing mediation (e.g., extensions of latent growth modeling techniques, dampened oscillator models, etc.)."
+      - title: "Statistics and Computational Modeling of Psychopathology"
+        desc: "Broad interests include the potential application of a wide range of statistical and computational strategies for modeling emotional disorders and delineating treatment processes underlying empirically supported interventions. Examples include the application of finite mixture models, latent variable modeling, time-series and forecasting, longitudinal mediation and growth curve analyses, etc."
         icon: fas fa-laptop-code
+      - title: "Philosophy of Science and Psychopathology"
+        desc: "My scientific research is complemented by my abiding passion for metaphysics, epistemology, and philosophy of science. Such work primarily explores the ontology of mental disorders vis-à-vis realist and anti-realist frameworks as explanatory accounts."
+        icon: fas fa-mortar-pestle
 
   portfolio:
     title: "Portfolio"
