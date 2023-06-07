@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         icon: fas fa-project-diagram #find more at https://fontawesome.com/icons
       - title: "Precision Medicine and Predictive Modelling for Emotional Disorders"
         desc: "A second and complementary area of research relates to furthering precision medicine approaches to emotional disorders. Much of my recent and ongoing research has examined the utility of machine learning models in predicting important clinical outcomes (e.g., response to treatment, changes in disorder state etc.). Time-seies extensions of machine learning provide opportunities for forecasting changes in symptom dynamics at the individual level. The ultimate objective is to leverage predictive modeling procedures to inform just-in-time adaptive interventions that are personalized at the individual level."
-        icon: fas fa-atom-simple 
+        icon: fa-duotone fa-atom-simple
       - title: "Emotion Regulation and Mindfulness"
         desc: "Another principal domain of inquiry is how deficits in emotion regulation and mindfulness relate to the maintenance of emotional disorders. This work culminated in the Conditional Process Model (CPM), which endeavors to unify mindfulness and emotion regulation in a combined model that specifies how mindfulness and emotion regulation deficits interact in such a manner as to contribute to psychopathology. Furthermore, I am interested in emotion regulation mechanisms underlying empirically supported treatments."
         icon: fas fa-seedling
