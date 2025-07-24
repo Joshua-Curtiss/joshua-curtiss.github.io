@@ -15,7 +15,7 @@ en: &DEFAULT_EN
       section: briefbio
     - title: "Publications"
       url: https://scholar.google.com/citations?user=qJdUF5EAAAAJ&hl=en
-    - title: "Book"
+    - title: "Books"
       url: book.html
 #    - title: "Timeline"
 #      section: timeline
